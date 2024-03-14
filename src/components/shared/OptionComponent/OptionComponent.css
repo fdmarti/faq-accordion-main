@@ -1,0 +1,29 @@
+.option {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	padding: 30px 0;
+	border-bottom: 1px solid var(--lightGray);
+}
+
+.option:last-child {
+	border-bottom: none;
+}
+
+.title-option {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-weight: 700;
+}
+
+.title-option:hover {
+	cursor: pointer;
+	color: var(--hoverPurple);
+}
+
+.content-option {
+	max-width: 600px;
+	letter-spacing: 0.5px;
+	color: var(--grayshPurple);
+}

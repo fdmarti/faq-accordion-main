@@ -1,0 +1,31 @@
+.faq-card {
+	position: absolute;
+	background-color: var(--white);
+	padding: 30px;
+	width: 700px;
+	border-radius: 20px;
+	box-shadow: 0 10px 20px -20px #000;
+
+	top: 100px;
+}
+
+.title-faq {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 1rem;
+	margin-bottom: 20px;
+}
+
+.title-faq h1 {
+	font-size: 45px;
+	font-weight: 800;
+}
+
+
+@media (max-width: 768px) {
+	.faq-card {
+		width: auto;
+		margin: 0 20px;
+	}
+}
