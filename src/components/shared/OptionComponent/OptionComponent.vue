@@ -2,7 +2,8 @@
 	<div class="option" @click="handleClickShowContent">
 		<div class="title-option">
 			<h3>{{ title }}</h3>
-			<img src="/images/icon-plus.svg" alt="icon option" class="icon-option" />
+			<img src="/images/icon-minus.svg" alt="icon option" class="icon-option" v-if="showContent"/>
+			<img src="/images/icon-plus.svg" alt="icon option" class="icon-option" v-else/>
 		</div>
 		<div class="content-option" v-if="showContent">
 			<p>{{ content }}</p>
